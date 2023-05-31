@@ -1,0 +1,80 @@
+//Sydle
+{
+    "_creationUser": null,
+    "complementaryInformation": null,
+    "nomeDoCandidato": "Rei Charles III",
+    "regional": "matriz",
+    "normativeUnit": {
+        "_classId": "5d78fd91f3e09842ea5b4d43",
+        "_id": "5dcd48650309d26aac9c1c7e"
+    },
+    "nomeDoImpugnante": "Hércules",
+    "arquivoS": [
+        {
+            "pendingContentExtraction": false,
+            "name": "example.png",
+            "contentText": null,
+            "length": 7325,
+            "_id": "6458eecefbe9ba55ab2e0ed3",
+            "contentType": "image/png",
+            "hash": "87b4782c1f8c522385ef77c807d0d6c5"
+        }
+    ],
+    "nomeDoCandidatoNaUrna": "Charles do Palacio",
+    "_lastUpdateUser": null,
+    "currentUnit": null,
+    "cPFDoCandidato": "86175810007",
+    "newTicketsFromBreakUp": null,
+    "executorGroup": null,
+    "themes": null,
+    "subTickets": null,
+    "_publishedObject": null,
+    "_lastUpdateDate": null,
+    "_protected": null,
+    "placeOfExecution": null,
+    "executorGroups": null,
+    "semCandidato": "<div style=\"background-color:#dbeeff; \npadding-left: 30px; \npadding-right: 30px; \npadding-bottom:5px; \npadding-top:30px;\">\n<center><strong>N&atilde;o h&aacute; Candidatos nessa regional</strong></center>\n</div>\n",
+    "_revision": null,
+    "_classRevision": "c131d1e665a8569955d5c4e22d155f29",
+    "groups": null,
+    "toUnits": [],
+    "_creationDate": null,
+    "menu": null,
+    "internalStatus": {
+        "_creationUser": null,
+        "_revision": "63ee993f99678e79e26a86a4",
+        "_lastUpdateUser": {
+            "_classId": "5d78fcd1f3e09842ea5b4cf6",
+            "_id": "630dfdd091d44150aae63eab"
+        },
+        "_classRevision": "63d95808f738701c9f455802",
+        "_creationDate": "2019-12-17T11:54:55.634Z",
+        "ticketStep": {
+            "_classId": "5db09f404311716c967b2d16",
+            "_id": "5db83bbe53fd6b5bbd8548bb"
+        },
+        "_lastUpdateDate": "2023-02-16T20:59:43.829Z",
+        "_protected": false,
+        "_publishedObject": null,
+        "ticketStatus": {
+            "_classId": "5cacdc04a50bfe4c0d3e5c74",
+            "_id": "5cbfff0a21dc12734173ac40"
+        },
+        "name": "Novo",
+        "_id": "5dbc39a453fd6b5bbd87bb3b",
+        "_class": {
+            "_classId": "000000000000000000000000",
+            "_id": "5d97a055f9ef30078a68b4ce"
+        },
+        "documentarySituation": null
+    },
+    "concernedUnit": null,
+    "cPFDoImpugnante": "92634700067",
+    "sendingUnit": null,
+    "_id": "64593e644caa7256828057e8",
+    "_class": {
+        "_classId": "000000000000000000000000",
+        "_id": "641f261fa559353197fd1459"
+    },
+    "submitterUnit": null
+}

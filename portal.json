@@ -1,0 +1,523 @@
+//portal criar
+{
+    "_creationUser": {
+        "hidden": false,
+        "name": {
+            "pt": "Criado por",
+            "en": "Created by",
+            "es": "Creado por"
+        }
+    },
+    "complementaryInformation": {
+        "hidden": true,
+        "size": "lg",
+        "name": {
+            "pt": "Informações Complementares"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    },
+    "nomeDoCandidato": {
+        "hidden": false,
+        "size": "md",
+        "name": {
+            "pt": "Nome do Candidato"
+        },
+        "breakLine": false,
+        "readOnly": false,
+        "placeholder": null,
+        "maxLength": null,
+        "required": false,
+        "valueOptions": [],
+        "mask": null
+    },
+    "regional": {
+        "hidden": false,
+        "size": "sm",
+        "name": {
+            "pt": "Regional"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "placeholder": null,
+        "maxLength": null,
+        "required": true,
+        "valueOptions": [
+            {
+                "identifier": "bairroNovo",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcb914caa725682079ba4",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Bairro Novo"
+                }
+            },
+            {
+                "identifier": "boa Vista",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcba34caa72568208bf29",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Boa Vista"
+                }
+            },
+            {
+                "identifier": "boqueirao",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbb94caa7256820a594b",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Boqueirão"
+                }
+            },
+            {
+                "identifier": "cajuru",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbc94caa7256820ba773",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Cajuru"
+                }
+            },
+            {
+                "identifier": "cic",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbd44caa7256820ce895",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "CIC"
+                }
+            },
+            {
+                "identifier": "matriz",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbdb4caa7256820dec98",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Matriz"
+                }
+            },
+            {
+                "identifier": "pinheirinho",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbe84caa7256820f5f92",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Pinheirinho"
+                }
+            },
+            {
+                "identifier": "portao",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcbfa4caa725682110aac",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Portão"
+                }
+            },
+            {
+                "identifier": "santaFelicidade",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcc044caa72568211f0ab",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Santa Felicidade"
+                }
+            },
+            {
+                "identifier": "tatuquara",
+                "_class": {
+                    "_classId": "000000000000000000000000",
+                    "_id": "000000000000000000000088"
+                },
+                "_id": "644bcc054caa725682123f13",
+                "_classRevision": "ce19e0a2ded2b9ed02208b795de13bce",
+                "value": {
+                    "pt": "Tatuquara"
+                }
+            }
+        ],
+        "mask": null
+    },
+    "normativeUnit": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Órgão normatizador"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    },
+    "nomeDoImpugnante": {
+        "hidden": false,
+        "size": "md",
+        "name": {
+            "pt": "Nome do impugnante"
+        },
+        "breakLine": false,
+        "readOnly": true,
+        "placeholder": null,
+        "maxLength": null,
+        "required": false,
+        "valueOptions": [],
+        "mask": null
+    },
+    "arquivoS": {
+        "hidden": false,
+        "size": "md",
+        "acceptedExtensions": [
+            "pdf",
+            "jpeg",
+            "png",
+            "jpg",
+            "bitmap",
+            "mp4",
+            "mov",
+            "avi"
+        ],
+        "name": {
+            "pt": "Arquivo(s)"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "maxSize": 10,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": true
+    },
+    "nomeDoCandidatoNaUrna": {
+        "hidden": false,
+        "size": "md",
+        "name": {
+            "pt": "Nome do Candidato na Urna"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "placeholder": null,
+        "maxLength": null,
+        "required": true,
+        "valueOptions": [],
+        "mask": null
+    },
+    "_lastUpdateUser": {
+        "hidden": false,
+        "name": {
+            "pt": "Alterado por",
+            "en": "Changed by",
+            "es": "Modificado por"
+        }
+    },
+    "currentUnit": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Unidade atual"
+        },
+        "breakLine": true,
+        "readOnly": true,
+        "required": false
+    },
+    "cPFDoCandidato": {
+        "hidden": false,
+        "size": "sm",
+        "name": {
+            "pt": "CPF do Candidato"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "placeholder": null,
+        "maxLength": null,
+        "required": false,
+        "valueOptions": [],
+        "mask": null
+    },
+    "newTicketsFromBreakUp": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Solicitação(ões) de Serviço(s) criadas a partir do Desmembramento"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "executorGroup": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Órgão Atual"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    },
+    "themes": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Temas"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "subTickets": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Sub-tickets"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "_publishedObject": {
+        "hidden": true,
+        "name": {
+            "pt": "Publicado",
+            "en": "Published",
+            "es": "Publicado"
+        }
+    },
+    "_lastUpdateDate": {
+        "hidden": false,
+        "name": {
+            "pt": "Data da última alteração",
+            "en": "Date of last change",
+            "es": "Fecha del último cambio"
+        }
+    },
+    "_protected": {
+        "hidden": false,
+        "name": {
+            "pt": "Protegido",
+            "en": "Protected",
+            "es": "Protegido"
+        }
+    },
+    "placeOfExecution": {
+        "hidden": true,
+        "size": "lg",
+        "name": {
+            "pt": "Local de execução"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    },
+    "executorGroups": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Grupos executores"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": true,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "semCandidato": {
+        "hidden": true,
+        "size": "lg",
+        "name": {
+            "pt": "Alerta- Sem candidatos nessa regional"
+        },
+        "breakLine": true,
+        "readOnly": true,
+        "required": false,
+        "valueOptions": [],
+        "mask": null
+    },
+    "_revision": {
+        "hidden": true,
+        "name": {
+            "pt": "Revisão",
+            "en": "Review",
+            "es": "Revisar"
+        }
+    },
+    "_classRevision": {
+        "hidden": true,
+        "name": {
+            "pt": "Revisão da classe",
+            "en": "Class revision",
+            "es": "Revisión de clase"
+        }
+    },
+    "groups": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Grupos"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "toUnits": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Unidade(s) Destinatária(s)"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": true,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "_creationDate": {
+        "hidden": false,
+        "name": {
+            "pt": "Data da criação",
+            "en": "Creation date",
+            "es": "Fecha de creación"
+        }
+    },
+    "menu": {
+        "hidden": true,
+        "size": "lg",
+        "name": {
+            "pt": "Pré-visualizar Serviço"
+        },
+        "breakLine": true,
+        "readOnly": true,
+        "required": false,
+        "valueOptions": [],
+        "mask": null
+    },
+    "internalStatus": {
+        "hidden": false,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Situação de Atendimento Atual"
+        },
+        "breakLine": true,
+        "readOnly": true,
+        "required": true
+    },
+    "concernedUnit": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Unidade interessada"
+        },
+        "breakLine": true,
+        "shiftable": true,
+        "maxMultiplicity": null,
+        "readOnly": false,
+        "minMultiplicity": null,
+        "required": false
+    },
+    "cPFDoImpugnante": {
+        "hidden": false,
+        "size": "sm",
+        "name": {
+            "pt": "CPF do Impugnante"
+        },
+        "breakLine": false,
+        "readOnly": true,
+        "placeholder": null,
+        "maxLength": null,
+        "required": false,
+        "valueOptions": [],
+        "mask": {
+            "_classId": "0fff00000000000000001911",
+            "_id": "62f4071791d44150aa98a125"
+        }
+    },
+    "sendingUnit": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Unidade remetente"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    },
+    "_id": {
+        "hidden": false,
+        "name": {
+            "pt": "ID",
+            "en": "ID",
+            "es": "ID"
+        }
+    },
+    "_class": {
+        "hidden": false,
+        "name": {
+            "pt": "Classe",
+            "en": "Class",
+            "es": "Clase"
+        }
+    },
+    "submitterUnit": {
+        "hidden": true,
+        "size": "lg",
+        "query": null,
+        "name": {
+            "pt": "Unidade captadora"
+        },
+        "breakLine": true,
+        "readOnly": false,
+        "required": false
+    }
+}
